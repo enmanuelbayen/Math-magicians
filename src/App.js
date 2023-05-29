@@ -11,7 +11,7 @@ function App() {
           {' '}
           <code>src/App.js</code>
           {' '}
-          and save to reload.
+          and save to reload. now i have dev branch
         </p>
         <a
           className="App-link"
