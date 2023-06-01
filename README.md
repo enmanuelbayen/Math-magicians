@@ -38,6 +38,7 @@ Will have future changes in the next days!
 
 # 📖 Lets make magic with maths!  <a name="about-project"></a>
 
+  This GitHub repository houses a versatile calculator with an added API feature that provides users with different inspirational quotes every time. Providing users with a dose of inspiration whenever needed. With this repository, users can access and contribute to a powerful calculator tool while enjoying uplifting quotes to boost their motivation throughout the day.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,13 +69,6 @@ Will have future changes in the next days!
 3 Basic styling for the project </br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Not yet.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
