@@ -5,7 +5,7 @@ function App() {
   return (
     <section className="app-section">
       <div className="App grid">
-        <h2>Lets do some math!</h2>
+        <h1>Lets do some math!</h1>
         <Calculator />
       </div>
     </section>

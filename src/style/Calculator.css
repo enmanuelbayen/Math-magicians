@@ -3,12 +3,12 @@
 }
 
 .App {
-  margin: 0;
-  grid-template-columns: repeat(2, 1fr);  
+  padding: 2% 1.5%;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .calculator {
- padding: 2%;
+  padding: 6%;
 }
 
 .calculator button {
@@ -18,7 +18,7 @@
 .result {
   text-align: end;
   background: #a4a1a0;
-  padding: 0.7em;
+  padding: 0.6em;
   color: azure;
   font-size: 1.4em;
 }
@@ -33,7 +33,7 @@
 
 .key-row {
   cursor: pointer;
-  padding: 2em 1em;
+  padding: 15px;
   border: solid 0.5px #a4a1a0;
 }
 
