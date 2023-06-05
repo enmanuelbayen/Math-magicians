@@ -44,3 +44,11 @@
 #ceroKey {
   grid-column: span 2;
 }
+
+/* QUOTES */
+
+.quoteBox {
+  margin: 10% 1.5%;
+  padding: 2%;
+  border: 4px solid #4864c1;
+}

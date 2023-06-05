@@ -14,6 +14,10 @@ import Error404 from './components/Error404';
 
 const router = createBrowserRouter([
   {
+    path: '/',
+    element: <Header><Home /></Header>,
+  },
+  {
     path: '/home',
     element: <Header><Home /></Header>,
   },

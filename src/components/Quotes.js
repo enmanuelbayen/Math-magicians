@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../style/Calculator.css';
 
 const Quotes = () => {
   const [quotes, setQuotes] = useState({});
@@ -39,7 +40,7 @@ const Quotes = () => {
   }
 
   return (
-    <div className="quotesBox">
+    <div className="quoteBox">
       {quotes && (
       <p className="dailyQuote">
         &quot;
