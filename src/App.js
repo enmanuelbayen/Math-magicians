@@ -3,9 +3,12 @@ import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator />
-    </div>
+    <section className="app-section">
+      <div className="App grid">
+        <h2>Lets do some math!</h2>
+        <Calculator />
+      </div>
+    </section>
   );
 }
 

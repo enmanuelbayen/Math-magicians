@@ -3,15 +3,12 @@
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 30%;
+  margin: 0;
+  grid-template-columns: repeat(2, 1fr);  
 }
 
 .calculator {
-  padding: 10% 0;
-  margin: 0 15%;
+ padding: 2%;
 }
 
 .calculator button {

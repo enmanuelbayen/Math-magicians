@@ -4,13 +4,15 @@ import Navbar from './Navbar';
 import '../style/header.css';
 
 const Header = ({ children }) => (
-  <section className="navigation-bar">
-    <header className="header">
-      <logo className="logo">Math Magicians</logo>
-      <Navbar />
-    </header>
+  <>
+    <section className="website">
+      <header className="header">
+        <logo className="logo">Math Magicians</logo>
+        <Navbar />
+      </header>
+    </section>
     {children}
-  </section>
+  </>
 );
 
 Header.propTypes = {
