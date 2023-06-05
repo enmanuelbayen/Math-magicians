@@ -1,13 +1,14 @@
-import './Calculator.css';
+import './style/Calculator.css';
 import Calculator from './components/Calculator';
-import Quotes from './components/Quotes';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator />
-      <Quotes />
-    </div>
+    <section className="app-section">
+      <div className="App grid">
+        <h1>Lets do some math!</h1>
+        <Calculator />
+      </div>
+    </section>
   );
 }
 

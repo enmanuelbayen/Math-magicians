@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2.25em;
+}
+
+.navbar {
+  display: flex;
+  gap: 1em;
+}
+
+.txtDecoNone {
+  text-decoration: none;
+  color: rgb(19, 148, 105);
+}
