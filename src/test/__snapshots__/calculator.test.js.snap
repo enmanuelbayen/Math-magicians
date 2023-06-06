@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component Handles button clicks correctly 1`] = `
+<button
+  class="key-row"
+  type="button"
+>
+  7
+</button>
+`;
+
+exports[`Calculator component Renders correctly 1`] = `
+<div>
+  <div
+    class="calculator"
+  >
+    <div
+      class="result"
+    >
+      0
+    </div>
+    <div
+      class="key-container grid"
+    >
+      <button
+        class="key-row"
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class="key-row orange"
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="key-row orange"
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="key-row orange"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="key-row orange"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="key-row"
+        id="ceroKey"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="key-row"
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class="key-row orange"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
