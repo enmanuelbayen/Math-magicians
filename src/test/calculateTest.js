@@ -132,5 +132,4 @@ function calculate(obj, buttonName) {
   };
 }
 
-
 module.exports = calculate;

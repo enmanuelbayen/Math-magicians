@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+
 describe('Navbar component', () => {
   test('Renders the "Home" link', () => {
     render(

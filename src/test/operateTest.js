@@ -1,5 +1,5 @@
 import Big from 'big.js';
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom';
 
 function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);

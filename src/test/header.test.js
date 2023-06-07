@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Header from '../components/Header';
+
 describe('Header component', () => {
   test('Renders the header with logo and navbar', () => {
     const { container } = render(

@@ -17,15 +17,15 @@ describe('Quotes component', () => {
 
   test('Displays error message when quote fetch fails', () => {
     jest.spyOn(window, 'fetch').mockRejectedValueOnce(new Error('Fetch error'));
-  
+
     const { getByText, queryByText } = render(<Quotes />);
     const loadingMessage = getByText('Loading...');
-  
+
     expect(loadingMessage).toBeInTheDocument();
-  
+
     setTimeout(() => {
       const errorMessage = queryByText('Ups... Quote is missing!');
-  
+
       expect(loadingMessage).not.toBeInTheDocument();
       expect(errorMessage).toBeInTheDocument();
       expect(errorMessage).toMatchSnapshot();

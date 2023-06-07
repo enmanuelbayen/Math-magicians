@@ -1,6 +1,6 @@
-import Keys from "../components/Keys";
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
+import Keys from '../components/Keys';
 
 describe('Keys component', () => {
   test('Renders buttons correctly', () => {
@@ -27,4 +27,3 @@ describe('Keys component', () => {
     expect(onClick).toHaveBeenCalledWith('7');
   });
 });
-
