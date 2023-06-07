@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component Displays loading message while fetching quotes 1`] = `
+<p
+  class="quoteLoading"
+>
+  Loading...
+</p>
+`;
+
+exports[`Quotes component Renders correctly 1`] = `
+<div>
+  <p
+    class="quoteLoading"
+  >
+    Loading...
+  </p>
+</div>
+`;
